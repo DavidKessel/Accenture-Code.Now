@@ -28,5 +28,9 @@ Additionally, the client demands a solution capable of filtering the data by: `�
 The backend needs to be capable to:
 
 - Fetch data from AQ public API `✅ The backend server queries the AQ public API.`
-- Insert AQ API data into a database `❌ I wasn't sure why this would be useful.`
+- Insert AQ API data into a database `❌ I wasn't sure what to do here.`
 - Provide endpoint to serve AQ data to the frontend `✅ Express server provides the endpoint.`
+
+## Conclusion:
+
+This challenge was a great way to test my fullstack programming skills. I'm happy with the final result.
