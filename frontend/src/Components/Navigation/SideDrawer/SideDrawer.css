@@ -36,6 +36,20 @@
     transform: translateX(0);
 }
 
+.credits {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    border: 2px dashed rgb(170, 0, 255);
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
 @media (min-width: 769px){
     .side-drawer {
         display: none;

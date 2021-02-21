@@ -10,9 +10,10 @@ function SideDrawer(props) {
     return (
         <nav className={SideDrawerClass}>
             <ul>
-                <li> <a href='#'>Products</a></li>
-                <li><a href='#'>Users</a></li>
-                <li><a href='#'>API</a></li>
+                <li> <a href='/details'>Products</a></li>
+                <li><a href='/details'>Users</a></li>
+                <li><a href='/details'>API</a></li>
+                <div className='credits'>Developed by David Kessel✌🏼</div>
             </ul>
             
         </nav>
