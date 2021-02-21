@@ -1,0 +1,49 @@
+.side-drawer {
+    background-color: #fff;
+    height: 100%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 400px;
+    z-index: 200;
+    transform: translateX(-110%);
+    transition: transform 0.3s ease-out;
+}
+
+.side-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-drawer li {
+    margin: 2.5rem auto;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+.side-drawer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.side-drawer.open {
+    transform: translateX(0);
+}
+
+@media (min-width: 769px){
+    .side-drawer {
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    .burgerMenu {
+        display: none;
+    }
+}

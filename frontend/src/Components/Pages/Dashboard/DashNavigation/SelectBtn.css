@@ -1,0 +1,51 @@
+
+.select-container {
+    width: 200px;
+    padding: 0 30px;
+
+}
+
+.select-item {
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 1em 2em 1em 2em;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 150px;
+    height: 3.5rem;
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    font-size: 1rem;
+    color: #3faffa;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.select-item i {
+    font-size: 20px;
+}
+
+.select-list {
+    align-self: center;
+    width: 150px;
+    background-color: #fff;
+    padding: 0.4em 2em 0.4em 1em;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    font-size: 1rem;
+    color: #3faffa;
+    text-transform: capitalize;
+    position: absolute;
+    cursor: pointer;
+}
+
+.select-list li {
+    list-style: none;
+}
+
+.select-list li:hover {
+    list-style: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
