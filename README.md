@@ -28,7 +28,7 @@ Additionally, the client demands a solution capable of filtering the data by: `�
 The backend needs to be capable to:
 
 - Fetch data from AQ public API `✅ The backend server queries the AQ public API.`
-- Insert AQ API data into a database `❌ I wasn't sure what to do here.`
+- Insert AQ API data into a database `❌ This would have useless for this app.`
 - Provide endpoint to serve AQ data to the frontend `✅ Express server provides the endpoint.`
 
 ## Conclusion:
