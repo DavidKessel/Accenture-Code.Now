@@ -16,12 +16,10 @@ function useApiData( pageNum, query, selectedOption, orderAsc) {
     useEffect(() => {
         let cancel
         const queryParam = query.length > 2 ? {city: query, page: pageNum} : {country: query, page: pageNum}
-        console.log(queryParam)
         setLoading(true)
         axios({
             method: 'GET',
-            // url: 'https://u50g7n0cbj.execute-api.us-east-1.amazonaws.com/v2/latest',
-            url: 'http://localhost:8081/airpoll/latest',
+            url: '/airpoll/latest',
             params: queryParam,
             cancelToken: new axios.CancelToken(c => cancel = c)
         })

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-
+const path = require('path');
 const callApi = require('./services/services.js')
 
 router.get('/airpoll/latest', callApi, (req, res, next) => {
@@ -11,7 +11,9 @@ router.get('/abc', (req, res) => {
     res.status(200).send('Everything ok')
 })
 
-router.get('/', (req, res, next) => res.status(404).send('Page does not exist'))
+router.get('/', (req, res, next) => {
+    res.status(404).send('Page does not exist')
+})
 
 
 module.exports = router
